@@ -6,7 +6,9 @@
 
     <uses-sdk
         android:minSdkVersion="18"
-        android:targetSdkVersion="20" />
+        android:targetSdkVersion="24" />
+
+    <uses-library android:name="org.apache.http.legacy"/>
 	
     <uses-permission android:name="android.permission.BLUETOOTH"/>
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
